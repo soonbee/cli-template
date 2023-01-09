@@ -32,8 +32,14 @@ setup(
 )
 ```
 
+## Change package name and version
+
+edit file `cli/__version__.py`
+
 ## Build
 
 ```
 python setup.py bdist_wheel
 ```
+
+output path is `dist/mycli-1.0.0-py3-none-any.whl`
